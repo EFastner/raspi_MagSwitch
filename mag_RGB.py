@@ -1,4 +1,6 @@
-#DESCRIPTION: Monitors a magnetic switch and outputs the status every 5 seconds for 5 cycles
+#DESCRIPTION: Monitors a magnetic switch and outputs the status as the state changes
+#Magnet Detected: Green LED
+#No Magnet Detected: Red LED
 
 import RPi.GPIO as GPIO
 import time
